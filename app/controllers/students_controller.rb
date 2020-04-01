@@ -1,3 +1,4 @@
 class CreateStudents < ApplicationController
-  @students = Students.all
+  def index
+  end
 end
